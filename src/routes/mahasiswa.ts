@@ -42,3 +42,5 @@ mahasiswaRoute.post("/", ({ params, body }) => {
         return { error: "Tidak ada data yang masuk" };
     }
 });
+
+// tambahkan PUT, PATCH, DELETE, CONNECT
